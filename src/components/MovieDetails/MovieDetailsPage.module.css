@@ -1,0 +1,11 @@
+.movieDetailsPage {
+    display: grid;
+    grid-area: movies-list;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    height: 100%;
+    padding: 1rem;
+    position: relative;
+  }
+
+  
